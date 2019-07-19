@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <div class="container" id="app">
+    <div class="container" id="app">
       <div class="form-group">
         <label>
           <button class="btn btn-primary btn-sm" @click.prevent="playSound(s)">
@@ -9,20 +9,23 @@
           Play Air Plane Ding
         </label>
       </div>
-    </div>-->
-    <audio controls>
+    </div>
+    <!-- <audio controls>
       <source
         src="https://download1349.mediafire.com/7vknsbevs6hg/p26v2oamjq0vmiy/Dua-Nhau-Di-Tron-Chill-Version-Den-Linh-Cao.mp3"
         type="audio/mpeg"
       />
-    </audio>
+    </audio>-->
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {}
+    return {
+      s:
+        'https://download1349.mediafire.com/7vknsbevs6hg/p26v2oamjq0vmiy/Dua-Nhau-Di-Tron-Chill-Version-Den-Linh-Cao.mp3'
+    }
   },
   methods: {
     playSound(sound) {
