@@ -1,7 +1,7 @@
 module.exports = {
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: 'shop',
     script: [{ src: 'https://js.stripe.com/v3/' }],
@@ -21,10 +21,8 @@ module.exports = {
   },
   css: ['~/assets/main.css'],
   /*
-  ** Customize the progress bar color
-  */
+   ** Customize the progress bar color
+   */
   loading: { color: '#3e64ea' },
-  modules: [
-    '@nuxtjs/axios'
-  ]
+  modules: ['@nuxtjs/axios']
 }
