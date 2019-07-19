@@ -1,16 +1,10 @@
 module.exports = {
-  root: true,
-  parser: 'babel-eslint',
-  env: {
-    browser: true,
-    node: true
-  },
-  extends: 'standard',
-  // required to lint *.vue files
-  plugins: [
-    'html'
-  ],
-  // add your custom rules here
-  rules: {},
-  globals: {}
-}
+  plugins: ["vue"], // enable vue plugin
+  extends: ["plugin:vue/essential", "prettier"], // activate vue related rules,
+  parserOptions: {
+    parser: "babel-eslint",
+    sourceType: "module",
+    allowImportExportEverywhere: false,
+    codeFrame: false
+  }
+};

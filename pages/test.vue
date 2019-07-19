@@ -6,10 +6,10 @@
 export default {
   methods: {
     test() {
-      this.$store.dispatch("getProducts");
+      console.log('test')
     }
   }
-};
+}
 </script>
 
 <style>
