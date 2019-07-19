@@ -12,13 +12,9 @@
     </div>-->
     <audio controls>
       <source
-        src="https://download1484.mediafire.com/6fphf70i816g/c28g9mkh07j2o9l/Dua-Nhau-Di-Tron-Chill-Version-Den-Linh-Cao.ogg"
-        type="audio/ogg"
-      />
-      <!-- <source
         src="https://download1349.mediafire.com/7vknsbevs6hg/p26v2oamjq0vmiy/Dua-Nhau-Di-Tron-Chill-Version-Den-Linh-Cao.mp3"
         type="audio/mpeg"
-      /> -->
+      />
     </audio>
   </div>
 </template>
